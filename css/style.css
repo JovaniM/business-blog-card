@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-color: #F2F5F9;
+}
+
+.business-card{
+    border-radius: 20px;
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+.business-card > .card-content{
+    width: 418px;
+    font-family: "lato";
+    font-size: 16px;
+    color: #677489;
+}
+
+.business-card > .card-content > .header{
+    position: relative;
+}
+
+.business-card > .card-content > .header > svg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.business-card > .card-content > .content{
+    padding: 0px 20px;
+    border-bottom: #F2F5F9 solid 1px;
+}
+
+.business-card > .card-content > .content > h1{
+    margin: 0px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #111729;
+    font-family: "Poppins";
+}
+
+.business-card > .card-content > .header > img{
+    width: 100%;
+}
+
+.business-card > .card-content > .footer{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+}
+
+.business-card > .card-content > .footer > .footer-img > img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.business-card > .card-content > .footer > .footer-info > h2{
+    margin: 0px;
+    color: #111729;
+}
+
+.business-card > .card-content > .footer > .footer-info > p{
+    margin: 0px;
+}
